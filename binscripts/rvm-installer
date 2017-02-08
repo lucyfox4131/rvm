@@ -909,7 +909,6 @@ rvm_install()
   rvm_install_default_settings
   rvm_install_parse_params "$@"
   rvm_install_validate_rvm_path
-  rvm_install_validate_volume_mount_mode
   rvm_install_select_and_get_version
   rvm_install_main
   rvm_install_ruby_and_gems
